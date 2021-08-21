@@ -40,7 +40,7 @@ if (JSON.parse(localStorage.getItem("siteLists")) != null) {
 }
 /*__________________________ addSite Start __________________________*/
 $('#addWebsite').click(function () {
-    if ($('#addWebsite').html() == "Add Website") {
+    if ($('#addWebsite').html() == "Submit") {
 
         addSite();
         displayWebsite();
@@ -175,7 +175,7 @@ function updateWebsite() {
 
     site[siteIndex] = mySites;
     localStorage.setItem("siteLists", JSON.stringify(site))
-    $('#addWebsite').html("Add Website");
+    $('#addWebsite').html("Submit");
     resetForm()
     displayWebsite();
 
