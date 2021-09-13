@@ -1,8 +1,8 @@
 # Bookmark_App
 https://hossamemara.github.io/Bookmark_App/
 
-<div class=" card active" style="background-image: url(Images/movies-site.png);">
-            <div id='details'><span>Movies 4U : 
+
+            <div><span>Movies 4U : 
         <p>
             <p>
             This Site For Cinema Contents Like Trending Movies and Series Also Have Most Popular Actors and Their Movies or Series , You Can add Movies or Series To Favorite Page Depending Logged in User This Site Created Using Angular Framework and Real API (MovieDB) You Can Register a User and Login
@@ -47,5 +47,5 @@ https://hossamemara.github.io/Bookmark_App/
                     
                     
                      </p>
-            </span></div id='details'>
+         
         </div>
